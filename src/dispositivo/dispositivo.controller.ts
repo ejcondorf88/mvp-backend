@@ -6,7 +6,7 @@ import { Dispositivo } from './dispositivo.entity';
 import { Lote } from '../lote/lote.entity';
 
 @Injectable()
-export class DispositivoService {
+export class DispositivoController {
   constructor(
     @InjectRepository(Dispositivo)
     private readonly dispositivoRepo: Repository<Dispositivo>,
